@@ -1,0 +1,110 @@
+body{
+    background:#daffb3;
+    text-align: center;
+    
+}
+
+img{
+   width: 100%;
+   margin: auto;
+}
+
+.center{  
+    margin: 0px;
+}
+
+nav{
+    background-color: black;
+    padding: 5px;
+    margin: 0; 
+}
+
+nav ul{
+    position: sticky;
+    text-align: center;
+    border: none;
+}
+
+nav li{
+    display: inline; 
+    padding: 30px;
+}
+
+nav li a:link, nav li a:visited {
+font-family: monospace;
+font-size: 20px;
+color:  white;
+text-decoration:none;
+border: 10 px solid black;
+}
+
+nav ul li a:hover{
+    color: #ff66ff;
+    border-bottom: 3px solid ;
+}
+
+.para{
+    font-family: monospace;
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    border: 2px dashed black;
+    padding: 10px;
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 0px;
+    
+}
+
+.para h1{
+    color:#ff66ff;
+}
+
+h1{
+    font-family: monospace;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0px;  
+}
+
+h2{
+    font-family: cursive;
+    color: black;
+    font-size: 18px; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#welcome{
+    background-color: white;
+    border: 2px dashed black;
+    padding:10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.land img {
+  float: left;
+  border-radius: 50%;
+  width: 550px;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 0 20px 20px 0;
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+  margin-top: 18px;  
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  padding: 20px;
+  background-color: black;
+}
