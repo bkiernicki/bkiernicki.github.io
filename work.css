@@ -1,0 +1,143 @@
+body{
+    background: #daffb3;
+    text-align: center;
+    
+}
+
+nav{
+    background-color: black;
+    padding: 5px;
+    margin: 0; 
+}
+
+nav ul{
+    position: sticky;
+    text-align: center;
+    border: none;
+}
+
+nav li{
+    display: inline; 
+    padding: 30px;
+}
+
+nav li a:link, nav li a:visited {
+font-family: monospace;
+font-size: 20px;
+color:  white;
+text-decoration:none;
+border: 10 px solid black;
+}
+
+nav ul li a:hover{
+    color: #ff66ff;
+    border-bottom: 3px solid;
+}
+
+
+h1{
+    font-family: monospace;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0px;  
+}
+
+h2{
+    font-family: monospace;
+    color: black;
+    font-size: 20px; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#welcome{
+    background-color: white;
+    border: 2px dashed black;
+    padding: 24px
+}
+
+
+img{
+    width: 100%;
+}
+
+p{
+    font-style: italic;
+    text-align: left;
+}
+
+a:link, a:visited{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: lightseagreen
+}
+
+a:hover{
+     color: #ff66ff;
+}
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float:left;
+  width: 49%;
+  padding: 5px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 0px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-style: italic;
+  text-align: left;
+  background-color: #eee; 
+  height: 230px
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+  margin-top: 18px;  
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  padding: 20px;
+  background-color: black;
+}
